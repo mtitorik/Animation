@@ -1,0 +1,61 @@
+.box{
+		height: 200px;
+		width: 500px;
+		margin: 100px auto;
+		background-color: black;
+		-webkit-animation: animation1 5s 1s infinite;
+		animation: animation1 5s 1s infinite;
+}
+@-webkit-keyframes animation1{
+		from{background-color: black;}
+		to{background-color: white;}
+}
+@keyframes animation1{
+		from{background-color: black;}
+		to{background-color: white;}
+}
+.box2{
+		height: 200px;
+		width: 800px;
+		margin: 0px auto;
+		background-color: black;
+-webkit-animation: animation2 5s 1s infinite;
+		animation: animation2 5s 1s infinite;
+}
+@-webkit-keyframes animation2{
+		0%{background-color: black;}
+		25%{background-color: green;}
+		50%{background-color: blue;}
+		75%{background-color: yellow;}
+		100%{background-color: aqua;}
+}
+@keyframes animation2{
+		0%{background-color: black;}
+		25%{background-color: green;}
+		50%{background-color: blue;}
+		75%{background-color: yellow;}
+		100%{background-color: aqua;}
+}
+.box3{
+		height: 50px;
+		width: 50px;
+		margin-top: 45px;
+		background-color: red;
+		position: relative;
+		animation: animation3 5s 1s infinite linear;
+-webkit-animation: animation3 5s 1s infinite linear;
+}
+@keyframes animation3{
+		0%{background-color: red; left: 0px; top: 0px;}
+		40%{background-color: green; left: 97%; top: 0px;}
+		50%{background-color: blue; left: 97%; top: 250px;}
+		90%{background-color: yellow; left: 0px; top: 250px;}
+		100%{background-color: aqua; left: 0px; top: 0px;}
+}
+@-webkit-keyframes animation3{
+		0%{background-color: red; left: 0px; top: 0px;}
+		40%{background-color: green; left: 97%; top: 0px;}
+		50%{background-color: blue; left: 97%; top: 250px;}
+		90%{background-color: yellow; left: 0px; top: 250px;}
+		100%{background-color: aqua; left: 0px; top: 0px;}
+}
